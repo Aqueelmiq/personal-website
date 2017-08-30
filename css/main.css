@@ -193,9 +193,17 @@ h2 {
     display: flex;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .align-center {
     align-items: center;
     align-content: center;
+}
+
+.justify-start {
+    justify-content: flex-start;
 }
 
 .justify-space-between {
@@ -257,10 +265,24 @@ h2 {
 }
 
 
+/* ==========================================================================
+   Projects Page
+   ========================================================================== */
 
+.projects-pane ul {
+    padding: 0;
+    margin-top: -20px;
+    margin-bottom: 75px;
+}
 
+.project-item {
+    margin-top: 30px;
+    width: calc(33% - 10px);
+}
 
-
+.project-item-thumbnail img {
+    min-width: 100%;
+}
 
 
 /* ==========================================================================
