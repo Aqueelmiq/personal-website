@@ -106,7 +106,15 @@ body {
     padding: 10px 25px;
 }
 
+html {
+    position: relative;
+    min-width: 100%;
+    max-width: 100%;
+}
+
 html::after {
+    min-width: 100%;
+    min-height: 100%;
     background: url("../img/bg.gif");
     background-size: 250px 250px;
     content: "";
@@ -277,11 +285,12 @@ h2 {
 
 .project-item {
     margin-top: 30px;
-    width: calc(33% - 10px);
+    width: calc(50% - 10px);
 }
 
 .project-item-thumbnail img {
     min-width: 100%;
+    max-width: 100%;
 }
 
 
